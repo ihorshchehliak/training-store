@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.5'
+ruby '2.6.3'
 
 gem 'aasm', '~> 5.0.1'
 gem 'activeadmin', '2.2.0'
@@ -39,8 +39,10 @@ gem 'virtus', '~> 1.0.5'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'ffaker', '~> 2.13'
   gem 'pry', '~> 0.12.2'
   gem 'pry-rails', '0.3.9'
+  gem 'rspec-rails', '~> 3.9'
 end
 
 group :development do

@@ -6,6 +6,9 @@ require File.expand_path('../config/environment', __dir__)
 
 require 'rspec/rails'
 
+# Load site prism page objects
+require File.expand_path('support/pages/base_page', __dir__)
+
 Dir[Rails.root.join('spec', 'support', '**', '*.rb')].each { |f| require f }
 
 RSpec.configure do |config|
