@@ -11,7 +11,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap-datepicker-rails'
 gem 'bootstrap-daterangepicker-rails'
 gem 'bootstrap-sass', '~> 3.3.7'
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem 'client_side_validations'
 gem 'client_side_validations-simple_form'
 gem 'coffee-rails', '~> 4.2'
